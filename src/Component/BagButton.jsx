@@ -61,13 +61,10 @@ function BagButton() {
     .then(response => response.json())
     .then(data => {
       console.log('Svar från API:', data);
-      // Kontrollera om data innehåller ett beställningsnummer
       if (data && data.orderNr) {
         const orderNumber = data.orderNr;
-        setOrderNumbers([orderNumber]); // Lägg till beställningsnumret i en array och uppdatera orderNumbers
-        // Stäng BagButton-pop-fönstret när användaren klickar på "Take my money" knappen
+        setOrderNumbers([orderNumber]); 
         setShowPopScreen(false);
-        // Rendera statussidan som en portal ovanpå allt annat
         ReactDOM.createPortal(
           <Status orderNumbers={orderNumbers} />,
           document.body
