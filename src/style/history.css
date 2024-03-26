@@ -1,0 +1,70 @@
+.contir{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 100vh;
+    width: 350px;
+    background-color: rgb(0, 0, 0, 0.8);
+    position: absolute;
+    color: #FFFFFF;
+    transform: translate(-50%,-50%);
+    top: 42%;
+    left: 50%;
+    border-radius: 10px;
+    padding: 50px 20px;
+    z-index: -1;
+}
+.order-history {
+    text-align: center;
+}
+
+.order-history ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.order-history ul li span {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.total-spent {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.avatar{
+    width: 150px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.order-history ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Work Sans';
+  }
+  
+  .order-history ul li .order-number,
+  .order-history ul li .order-date {
+    margin-right: 10px;
+  }
+  .order-number{
+    font-weight: 800;
+  }
+  .order-total {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .order-total p {
+    margin: 0;
+  }
+  

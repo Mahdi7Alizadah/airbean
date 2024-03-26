@@ -1,0 +1,33 @@
+  .continer {
+    background-color: rgba(243, 228, 225, 1);
+    min-height: 100vh; /* Use min-height to ensure container expands to fit content */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .aboutContiner {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    background-color: rgba(243, 228, 225, 1);
+    max-width: 800px; /* Set maximum width for better readability */
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  h1 {
+    font-family: 'PT Serif';
+  }
+  
+  .h4 {
+    font-family: 'Work Sans';
+  }
+  
+  p {
+    font-family:'Work Sans';
+    font-size: 14px;
+  }

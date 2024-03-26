@@ -1,0 +1,89 @@
+.bag-button{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+    background-color: black;
+    padding: 13px;
+    border-radius: 50%;
+    border-color: black;
+    }
+.icon{
+    font-size: 24px;
+    color: azure;
+}
+
+  .pop-screen {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 720px;
+    width: 380px;
+    background-color: #FFFFFF;
+    color: black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 45%;
+    left: 50%;
+    border-radius: 10px;
+    z-index: 100;
+  }
+
+  .item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .name-price-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quantity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quantity {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .total-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .btn-take {
+    margin-top: 10px;
+    padding: 10px;
+    width: 240px;
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .total-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .total-text, .total-price, .tax-text {
+    margin-bottom: 5px;
+  }
+  
+  .take-my-money-btn {
+    margin-top: 10px;
+  }
+  
+  
